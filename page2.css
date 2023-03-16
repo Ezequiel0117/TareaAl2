@@ -1,0 +1,67 @@
+body{
+    background-color:#326074;
+    color:#fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:32px;
+    background-image: url("https://th.bing.com/th/id/R.8bfbb1d6774f34507ea3263eeb5d65ea?rik=xMRl2dme7vvTGg&riu=http%3a%2f%2fimages2.alphacoders.com%2f433%2f433996.jpg&ehk=C0DkcFMpx2QDAk7cbkjRZX95Oz5S%2bl1To3U0NbI1zd8%3d&risl=&pid=ImgRaw&r=0");
+}
+.contenedor{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+  
+}
+.operaciones{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    gap: 5px;
+}
+h1{
+    color:rgb(0, 0, 0);
+    font-size:50px;
+}
+.grupo{
+    display:flex;
+    justify-content:flex-start;
+    gap: 20px;
+    height:25px;
+    margin-bottom: 35px;
+    padding: 26px;
+}
+.grupo label, button{
+    width:50%;
+    font-size:15px;
+    font-weight:bold;
+}
+.grupo button{
+   border-radius:10px;
+    margin: 2px;
+    color:white;
+   
+    height:45px;
+    background-image: linear-gradient(to right top, #00e7f8, #00a2ff, #008793, #00bf72, #00b9fc);
+    cursor: pointer;
+    transition: .5s ease-in-out;  
+}
+.grupo input{
+  display:block;
+  border-radius: 7px;
+  font-size:25px;
+  padding: 25px;
+}
+#iva{
+   display:block;
+   margin-left: -330px;
+   width:40px 
+} 
+textarea{
+    margin-top:25px;
+    width:100%;
+    border-radius: 90px;
+    padding: 15px;
+    font-size:20px;
+    color:#1d2742;
+    font-weight: bolder;
+
+}

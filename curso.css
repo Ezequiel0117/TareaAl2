@@ -1,0 +1,63 @@
+body{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px;
+    background-image: url("https://th.bing.com/th/id/R.8bfbb1d6774f34507ea3263eeb5d65ea?rik=xMRl2dme7vvTGg&riu=http%3a%2f%2fimages2.alphacoders.com%2f433%2f433996.jpg&ehk=C0DkcFMpx2QDAk7cbkjRZX95Oz5S%2bl1To3U0NbI1zd8%3d&risl=&pid=ImgRaw&r=0");
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 38%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+div{
+    display:flex;
+    flex-direction:center;
+    gap: 90px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px;
+
+}
+ .contenedor{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    
+ }
+
+ h1{
+
+    color:rgb(255, 255, 255);
+    font-size:50px;
+}
+.opcion{
+    display:block;
+    text-align:center;
+    text-decoration: none;
+    width:400px;
+    height:70px;
+    border-radius:50px;
+    line-height:60px;
+    font-size:25px;
+    color:rgb(1, 1, 1);
+    font-weight:bold;
+    border-color: aliceblue;
+    background-image: linear-gradient(to right top, #00e7f8, #00a2ff, #008793, #00bf72, #00b9fc);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.opcion:hover{
+    height:70px;
+    line-height:70px;
+    background-image: linear-gradient(to right top, #00e7f8, #00a2ff, #008793, #00bf72, #00b9fc);
+    
+}
+
+
